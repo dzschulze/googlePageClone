@@ -1,0 +1,148 @@
+* {
+	/*border: 1px solid black;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+#logo {
+	/*clear: both;*/
+	margin-top: 50px;
+}
+
+#logo div {
+	width: 540px;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+/*
+#logo:hover {
+	border: 5px solid black;
+}
+*/
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	border: 0;
+	padding: 0;
+	background-color: grey;
+	height: 50px;
+	width: 100%;
+
+}
+
+footer {
+	background-color: grey;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+}
+
+header nav {
+	float: right;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul {
+	list-style-type: none;
+}
+
+header nav ul li {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	position: relative;
+	top: 12px;
+	right: 20px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	padding: 2px;
+}
+
+
+header nav ul li a:hover{
+	font-weight: bold;
+}
+
+
+footer nav {
+}
+
+/*
+footer nav:hover {
+	border: solid black 2px;
+}
+*/
+
+footer nav div {
+}
+
+footer nav ul {
+	list-style-type: none;
+	width: 320px;
+	margin: 0 auto;
+}
+
+/*
+footer nav ul:hover {
+	border: solid red 1px;
+}
+*/
+
+footer nav ul li {
+	display: inline-block;
+	font-size: 12px;
+	position: relative;
+	top: 5px;
+
+}
+
+footer nav ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 0 20px;
+}
+
+#searchbar {
+	display: block;
+	width: 32%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+#searchbar:hover{
+}
+
+.buttondiv {
+	display: inline-block;
+	width: 150px;
+}
+
+.buttondiv:hover {
+	
+}
+
+#searchbutton {
+	display: inline-block;
+	width: 150px;
+	padding: 3px 6px;
+}
+
+#searchbutton:hover {
+	border: 1px solid gray;
+}
+
+#buttonarea {
+	width: 315px;
+	margin: 0 auto;
+}
